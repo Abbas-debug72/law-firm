@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Sterling & Hale",
-  url: "https://sterling-hale.example.com",
+  url: "https://law-firm.gat6.vercel.app",
   tagline: "Counsel for the long term",
   description:
     "Lorem ipsum dolor sit amet — Sterling & Hale is an established corporate law firm advising businesses on the matters that matter.",
