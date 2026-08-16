@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #122b4e;
+  --color-navy-deep: #0a1a30;
+  --color-navy-soft: #1c3a63;
+  --color-navy-tint: #eef2f8;
+  --color-gold: #b9964c;
+  --color-gold-light: #c8a75c;
+  --color-gold-pale: #e9dcbb;
+  --color-ivory: #f7f4ec;
+  --color-ivory-dark: #eee9db;
+  --color-slate: #4a5a6a;
+  --color-ink: #1d2733;
+  --font-display: var(--font-cormorant);
+  --font-sans: var(--font-source);
+}
+
+:root {
+  --background: #f7f4ec;
+  --foreground: #1d2733;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+  background: #b9964c;
+  color: #0a1a30;
+}
+
+:focus-visible {
+  outline: 2px solid #b9964c;
+  outline-offset: 2px;
+}
+
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(to right, #b9964c, transparent);
+}
